@@ -1,7 +1,7 @@
-package br.com.sisbiblio.model;
+package br.com.pk.sisbiblio.model;
 
-import br.com.sisbiblio.bean.Genero;
-import br.com.sisbiblio.util.ConnectionFactory;
+import br.com.pk.sisbiblio.bean.Genero;
+import br.com.pk.sisbiblio.util.ConnectionFactory;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -26,8 +26,8 @@ public class GeneroDao{
         JOptionPane.showMessageDialog(null,"Gênero Adicionado com sucesso");
         
         }catch(SQLException e){
-            //JOptionPane.showMessageDialog(null,"O Gênero "+g.getNome()+" já está cadastrado");
-            JOptionPane.showMessageDialog(null,e);
+            JOptionPane.showMessageDialog(null,"O Gênero "+g.getNome()+" já está cadastrado");
+            //JOptionPane.showMessageDialog(null,e);
         }finally{
             //ConnectionFactory.closeConnection(con, st);
         }

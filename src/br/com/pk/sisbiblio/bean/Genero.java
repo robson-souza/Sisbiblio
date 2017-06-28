@@ -1,6 +1,4 @@
-package br.com.sisbiblio.bean;
-
-import static java.lang.ProcessBuilder.Redirect.to;
+package br.com.pk.sisbiblio.bean;
 
 public class Genero {
     private Long Id; 

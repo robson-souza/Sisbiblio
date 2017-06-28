@@ -1,4 +1,4 @@
-package br.com.sisbiblio.util;
+package br.com.pk.sisbiblio.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

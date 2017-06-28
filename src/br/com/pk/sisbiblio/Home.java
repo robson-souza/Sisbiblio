@@ -1,7 +1,7 @@
 package br.com.pk.sisbiblio;
 
-import br.com.sisbiblio.bean.Genero;
-import br.com.sisbiblio.model.GeneroDao;
+import br.com.pk.sisbiblio.bean.Genero;
+import br.com.pk.sisbiblio.model.GeneroDao;
 import javax.swing.JOptionPane;
 
 public class Home extends javax.swing.JFrame {

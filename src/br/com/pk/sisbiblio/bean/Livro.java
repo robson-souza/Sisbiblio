@@ -1,4 +1,4 @@
-package br.com.sisbiblio.bean;
+package br.com.pk.sisbiblio.bean;
 
 public class Livro {
     private Long Id;
